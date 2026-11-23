@@ -110,9 +110,12 @@ footer { margin-top: 48px; text-align: center; font-size: 13px; color: var(--mut
       <p><strong>We do not collect, sell, rent, or transmit your personal data to external servers.</strong> SnapMotion does not include third-party advertising SDKs, behavioral analytics trackers, or mandatory user accounts. All content, preferences, and records you create remain stored strictly within the local app sandbox (and, where applicable, your on-device App Group container for widgets/extensions) without custom cloud sync or remote developer servers.</p>
 
       <h2>2. On-Device Permissions</h2>
-      <p>Depending on the features you choose to use, SnapMotion may request the following system permissions strictly for on-device functionality:</p>
-      <ul><li>Photo Library (strictly on-device import of your screenshots and export of rendered videos/images)</li></ul>
-      <p>You can revoke any permission at any time in your device's System Settings.</p>
+      <p>SnapMotion uses Apple's privacy-preserving photo workflows strictly on your device:</p>
+      <ul>
+        <li><strong>System Photo Picker</strong>: Lets you select only the specific screenshots you choose to import, without requiring full Photo Library read access.</li>
+        <li><strong>Photo Library (Add-Only)</strong> (optional): Used solely to save your rendered 3D mockup images or 60fps MP4 videos to Photos when you explicitly tap Export.</li>
+      </ul>
+      <p>All rendering occurs locally on your device and never leaves your device.</p>
 
       <h2>3. In-App Purchases</h2>
       <p>Optional one-time purchases are processed securely by Apple via StoreKit. Broadmoork Tregory INC never receives or stores your payment card details or Apple ID credentials.</p>

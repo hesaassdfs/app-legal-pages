@@ -107,7 +107,7 @@ footer { margin-top: 48px; text-align: center; font-size: 13px; color: var(--mut
       <p>SubRadar is developed and published by <strong>Broadmoork Tregory INC</strong>. We are committed to protecting your privacy with a local-first, zero-tracking architecture.</p>
 
       <h2>1. Data Collection &amp; Privacy Commitment</h2>
-      <p><strong>We do not collect, sell, rent, or transmit your personal data to external servers.</strong> SubRadar does not include third-party advertising SDKs, behavioral analytics trackers, or mandatory user accounts. All content, preferences, and records you create remain stored strictly within the local app sandbox (and, where applicable, your on-device App Group container for widgets/extensions) without custom cloud sync or remote developer servers.</p>
+      <p><strong>We do not collect, sell, rent, or transmit your financial or personal data to developer servers.</strong> SubRadar never connects to bank APIs (such as Plaid), contains no advertising SDKs, and requires no developer account. Your subscription records are stored locally on your device (and local App Group container for widgets/Live Activities), with optional Apple iCloud Key-Value Sync (<code>NSUbiquitousKeyValueStore</code>) tied solely to your private Apple ID if you enable sync.</p>
 
       <h2>2. On-Device Permissions</h2>
       <p>Depending on the features you choose to use, SubRadar may request the following system permissions strictly for on-device functionality:</p>
@@ -117,8 +117,8 @@ footer { margin-top: 48px; text-align: center; font-size: 13px; color: var(--mut
       <h2>3. In-App Purchases</h2>
       <p>Optional one-time purchases are processed securely by Apple via StoreKit. Broadmoork Tregory INC never receives or stores your payment card details or Apple ID credentials.</p>
 
-      <h2>4. Local Storage, System Backups &amp; Exported Copies</h2>
-      <p>This app does not operate custom cloud sync or remote databases. All local records stay on your device; if you have enabled standard Apple device backups (such as iOS/macOS system backups) in your system settings, Apple's operating system may include local app sandbox data in your device backup according to Apple's system rules. When you explicitly export or share files, images, PDFs, or Markdown copies to Photos, Files, or third-party apps via the system share sheet, those exported copies are managed by the destination location you choose. You may delete any record inside the app or remove all local data by uninstalling the app.</p>
+      <h2>4. Local &amp; Optional iCloud Key-Value Retention, Export &amp; Deletion</h2>
+      <p>You maintain full control over your records. You may export subscriptions (CSV/JSON), delete individual entries, or clear local records inside the app. When optional Apple iCloud Key-Value Sync is enabled, deletions propagate to your private Apple iCloud Key-Value store; you may also disable iCloud sync in device settings or uninstall the app to remove all local data. Exported files and shared savings cards are managed by the destination you select.</p>
 
       <h2>5. Children's Privacy</h2>
       <p>We do not knowingly collect personal information from children under 13 (or the applicable age of digital consent in your jurisdiction).</p>

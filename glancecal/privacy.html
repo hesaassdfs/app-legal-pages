@@ -110,9 +110,11 @@ footer { margin-top: 48px; text-align: center; font-size: 13px; color: var(--mut
       <p><strong>We do not collect, sell, rent, or transmit your personal data to external servers.</strong> GlanceCal does not include third-party advertising SDKs, behavioral analytics trackers, or mandatory user accounts. All content, preferences, and records you create remain stored strictly within the local app sandbox (and, where applicable, your on-device App Group container for widgets/extensions) without custom cloud sync or remote developer servers.</p>
 
       <h2>2. On-Device Permissions</h2>
-      <p>Depending on the features you choose to use, GlanceCal may request the following system permissions strictly for on-device functionality:</p>
-      <ul><li>Calendars (strictly on-device read/write via Apple EventKit; your schedule is never uploaded to external servers)</li></ul>
-      <p>You can revoke any permission at any time in your device's System Settings.</p>
+      <p>GlanceCal requests the following permissions strictly on your Mac:</p>
+      <ul>
+        <li><strong>Calendars (Full Access via Apple EventKit)</strong>: Used locally to display your schedule, show upcoming meeting countdowns, extract meeting join links on-device, and create new events only in the specific calendar you explicitly choose. Any syncing of your Apple Calendar accounts is handled solely by macOS and your configured calendar provider.</li>
+        <li><strong>Notifications</strong> (optional): Used for local pre-meeting reminders.</li>
+      </ul>
 
       <h2>3. In-App Purchases</h2>
       <p>Optional one-time purchases are processed securely by Apple via StoreKit. Broadmoork Tregory INC never receives or stores your payment card details or Apple ID credentials.</p>

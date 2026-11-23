@@ -110,9 +110,13 @@ footer { margin-top: 48px; text-align: center; font-size: 13px; color: var(--mut
       <p><strong>We do not collect, sell, rent, or transmit your personal data to external servers.</strong> ActionKit does not include third-party advertising SDKs, behavioral analytics trackers, or mandatory user accounts. All content, preferences, and records you create remain stored strictly within the local app sandbox (and, where applicable, your on-device App Group container for widgets/extensions) without custom cloud sync or remote developer servers.</p>
 
       <h2>2. On-Device Permissions</h2>
-      <p>Depending on the features you choose to use, ActionKit may request the following system permissions strictly for on-device functionality:</p>
-      <ul><li>Microphone &amp; Speech Recognition (optional, strictly on-device for voice quick-capture)</li><li>Notifications (optional reminders)</li></ul>
-      <p>You can revoke any permission at any time in your device's System Settings.</p>
+      <p>ActionKit requests the following permissions strictly for on-device capture and widget workflows:</p>
+      <ul>
+        <li><strong>Camera</strong> (optional): Used strictly on-device for instant visual capture or scanning shortcuts.</li>
+        <li><strong>Microphone &amp; Speech Recognition</strong> (optional): Used strictly on-device for eyes-free voice quick-capture and transcription.</li>
+        <li><strong>Motion &amp; Orientation</strong> (optional): Used strictly on-device for gesture/orientation-aware quick actions.</li>
+      </ul>
+      <p>No audio, video, or motion sensor data is uploaded to developer servers. You can revoke any permission in iOS Settings.</p>
 
       <h2>3. In-App Purchases</h2>
       <p>Optional one-time purchases are processed securely by Apple via StoreKit. Broadmoork Tregory INC never receives or stores your payment card details or Apple ID credentials.</p>
